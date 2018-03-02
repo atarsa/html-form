@@ -47,6 +47,21 @@ header {
   padding: 10px;
 }
 /* ==========
+   Form
+   ========== */
+section {
+  box-sizing: border-box;
+  margin: auto;
+  max-height: 720px;
+  width: 340px;
+  background: #fff;
+}
+.mini-logos img {
+  width: 300px;
+  margin: 20px;
+}
+
+/* ==========
    Links
    ========== */
 a {
