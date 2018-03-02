@@ -1,6 +1,53 @@
-label{
-    display: block;
+body {
+  background: #eee;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
 }
-input{
-    display: block;
+/* ============= 
+   Navigation
+   ============= */
+.nav-wrapper {
+  display: block;
+  float: right;
+  height: 60px;
+  padding: 10px;
+  color: #505050;
+}
+.nav-container {
+  max-width: 290px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+nav button {
+  margin-left: -10px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #0077c5;
+  color: #fff;
+}
+nav img {
+  padding: 0 5px;
+  width: 10px;
+}
+/* ==========
+   Links
+   ========== */
+a {
+  display: inline-block;
+
+  color: #4c77c5;
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+input {
+  display: block;
 }
