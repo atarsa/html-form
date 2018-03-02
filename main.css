@@ -2,6 +2,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background: #eee;
+  color: #4c4c4c;
   font-family: Helvetica, sans-serif;
   font-size: 12px;
 }
@@ -38,13 +39,27 @@ nav img {
 }
 /* =========
     Header
-    ======== */
+    ========= */
+
 header {
   text-align: center;
 }
 #logo {
   margin: 60px 20px 20px 20px;
   padding: 10px;
+}
+h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+p {
+  margin: 0 20px;
+  text-align: center;
+  font-size: 14px;
+}
+#learn-more {
+  font-size: 12px;
 }
 /* ==========
    Form
@@ -54,26 +69,48 @@ section {
   margin: auto;
   max-height: 720px;
   width: 340px;
+  border: 1px solid #e2e1e1;
   background: #fff;
 }
 .mini-logos img {
   width: 300px;
   margin: 20px;
 }
+hr {
+  width: 300px;
+  border: 0;
+  height: 1px;
+  background-color: #e2e1e1;
+}
+form {
+  margin: 20px;
+}
 
+label {
+  display: block;
+  font-size: 14px;
+}
+input {
+  display: block;
+  width: 300px;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #e2e1e1;
+  border-radius: 3px;
+  line-height: 21px;
+}
+.small {
+  font-size: 10px;
+  font-weight: 200;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding: 5px 0;
+}
 /* ==========
    Links
    ========== */
 a {
   display: inline-block;
-
   color: #4c77c5;
   text-decoration: none;
-}
-
-label {
-  display: block;
-}
-input {
-  display: block;
 }
