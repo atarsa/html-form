@@ -6,15 +6,18 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 12px;
 }
+
 /* ============= 
    Navigation
    ============= */
+
 .nav-wrapper {
   float: right;
   height: 40px;
   padding: 10px;
   color: #505050;
 }
+
 .nav-container {
   max-width: 290px;
   display: grid;
@@ -33,10 +36,12 @@ nav button {
   background-color: #0077c5;
   color: #fff;
 }
+
 nav img {
   padding: 0 5px;
   width: 10px;
 }
+
 /* =========
     Header
     ========= */
@@ -44,6 +49,7 @@ nav img {
 header {
   text-align: center;
 }
+
 #logo {
   margin-top: 60px;
   margin-bottom: 10px;
@@ -51,22 +57,27 @@ header {
   margin-right: auto;
   padding: 10px;
 }
+
 h1 {
   text-align: center;
   font-weight: 500;
   font-size: 24px;
 }
+
 p {
   margin: 0 20px;
   text-align: center;
   font-size: 14px;
 }
+
 #learn-more {
   font-size: 12px;
 }
+
 /* ==========
    Form
    ========== */
+
 section {
   box-sizing: border-box;
   margin: auto;
@@ -75,16 +86,19 @@ section {
   border: 1px solid #e2e1e1;
   background: #fff;
 }
+
 .mini-logos img {
   width: 300px;
   margin: 20px;
 }
+
 hr {
   width: 300px;
   border: 0;
   height: 1px;
   background-color: #e2e1e1;
 }
+
 form {
   margin: 20px;
 }
@@ -93,6 +107,7 @@ label {
   display: block;
   font-size: 14px;
 }
+
 input {
   display: block;
   width: 300px;
@@ -101,6 +116,7 @@ input {
   border: 1px solid #e2e1e1;
   border-radius: 3px;
 }
+
 .small {
   font-size: 10px;
   font-weight: 200;
@@ -108,12 +124,14 @@ input {
   margin-bottom: 20px;
   padding: 5px 0;
 }
+
 form img {
   display: inline-block;
   vertical-align: text-top;
   width: 12px;
   margin: 0;
 }
+
 #create {
   width: 300px;
   height: 40px;
@@ -123,11 +141,13 @@ form img {
   background-color: #0077c5;
   color: #fff;
 }
+
 .text {
   line-height: 22px;
   text-align: center;
   padding: 13px;
 }
+
 .disclaimer {
   margin: 30px 0;
   text-align: center;
@@ -135,28 +155,39 @@ form img {
   line-height: 18px;
   color: #bbb;
 }
+
 /* ==========
    Links
    ========== */
+
 a {
   display: inline-block;
   color: #4c77c5;
   text-decoration: none;
 }
+
 .links a {
   color: #505050;
+  padding: 0 3px;
 }
 
 /* =========
    Footer
    ========= */
+
+footer {
+  margin-bottom: 20px;
+}
+
 .small-logo img {
   width: 50px;
   display: block;
   margin: 30px auto 20px auto;
 }
+
 .links,
-.legal-note {
+.legal-note p {
   text-align: center;
+  font-size: 12px;
   line-height: 18px;
 }
