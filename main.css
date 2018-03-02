@@ -106,6 +106,27 @@ input {
   margin-bottom: 20px;
   padding: 5px 0;
 }
+form img {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 12px;
+  margin: 0;
+}
+#create {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #0077c5;
+  border-radius: 3px;
+  font-size: 15px;
+  background-color: #0077c5;
+  color: #fff;
+}
+.text {
+  line-height: 22px;
+
+  text-align: center;
+  padding: 13px;
+}
 /* ==========
    Links
    ========== */
