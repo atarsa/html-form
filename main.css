@@ -45,7 +45,10 @@ header {
   text-align: center;
 }
 #logo {
-  margin: 60px 20px 20px 20px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
 }
 h1 {
@@ -93,11 +96,10 @@ label {
 input {
   display: block;
   width: 300px;
-  height: 25px;
+  height: 30px;
   margin: 5px 0 20px 0;
   border: 1px solid #e2e1e1;
   border-radius: 3px;
-  line-height: 21px;
 }
 .small {
   font-size: 10px;
@@ -123,9 +125,15 @@ form img {
 }
 .text {
   line-height: 22px;
-
   text-align: center;
   padding: 13px;
+}
+.disclaimer {
+  margin: 30px 0;
+  text-align: center;
+  font-style: italic;
+  line-height: 18px;
+  color: #bbb;
 }
 /* ==========
    Links
@@ -134,4 +142,21 @@ a {
   display: inline-block;
   color: #4c77c5;
   text-decoration: none;
+}
+.links a {
+  color: #505050;
+}
+
+/* =========
+   Footer
+   ========= */
+.small-logo img {
+  width: 50px;
+  display: block;
+  margin: 30px auto 20px auto;
+}
+.links,
+.legal-note {
+  text-align: center;
+  line-height: 18px;
 }
